@@ -1,0 +1,90 @@
+body{
+    background-color: #ededed;
+  }
+ .navbar-brand{
+    padding-left: 2%;
+      color: #d71c31;
+      font-family: 'Lobster';
+      font-weight: 500;
+      font-size: 45px;
+      padding-top: 0px;
+      padding-bottom: 5px; 
+  }
+  .navbar-nav > li{
+    color: #bb0f20;
+    padding-left:5px;
+    padding-right:5px;
+  }
+  
+  
+  #my-heading{
+      background-color: #ededed;
+  }
+  .download-button{
+    font-family: 'Merienda', cursive;   
+  }
+  .navbar-light .navbar-brand{
+    padding-left: 2%;
+    color: #d71c31;
+  }
+.navbar-light .navbar-brand:hover{
+  color: #c60013;
+}
+.navbar-light .navbar-nav .nav-link {
+  color:  #d71c31;
+  font-family: 'Merienda', cursive;
+  
+  }
+  
+  .navitems{
+    font-size: 17px;
+     font-weight: bold;
+  }
+  .download-button{
+      margin: 10px;
+  }
+  .quiz-quote{
+    background-color: #ededed;
+    text-align: center;
+    padding: 4% 10%;
+  }
+  .quiz-quote h1{
+    font-family: "candara";
+    font-size : 80px;
+    color: cornflowerblue;
+    padding-bottom: 0px;
+  }
+  .quiz-quote p{
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 2px;
+  }
+  .quiz-quote h2{
+      padding-top: 60px;
+      color:#959190;
+  }
+  @media (max-width : 500px){
+    .navbar-brand{
+      font-size: 35px;
+    }
+    .quiz-quote h2{
+      padding:5% 8%;
+    }
+  }
+
+  .download-button{
+    font-family: 'Merienda', cursive; 
+    margin:40px 20px;
+    font-size: 150%;
+  }
+  
+ 
+  #footer {
+    text-align: center;
+    padding: 7% 0%;
+    background-color: #8f8f8f ;
+  }
+  .foo{
+    color: #fff;
+    padding: 20px 10px;
+  }

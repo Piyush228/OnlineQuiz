@@ -1,0 +1,81 @@
+<html lang="en">
+    <link type="text/css" rel="stylesheet" id="dark-mode-general-link">
+    <link type="text/css" rel="stylesheet" id="dark-mode-custom-link">
+    <style lang="en" type="text/css" id="dark-mode-custom-style"></style>
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="blood_icon.ico">
+    <title>Blood Support</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Merienda:wght@400;700&family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@800&display=swap" rel="stylesheet">
+    
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/floating-labels/">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Custom styles for this template -->
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link href="login.css" rel="stylesheet">
+
+
+    <script src="https://www.gstatic.com/firebasejs/9.1.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.1.1/firebase-auth.js"> </script>
+    <script src="login.js"></script>
+  </head>
+
+  <body>
+    <form class="form-loginin" id="form">
+            <div class="text-center mb-4">
+                <h1 class="h3 mb-3 font-weight-normal sheading">Welcome to Online Quiz!</h1>
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputEmail4">Email</label>
+                <input type="email" class="form-control" id="inputEmail" placeholder="Email" required>
+              </div>
+              <!-- <div class="form-group col-md-6">
+                <label for="inputPassword4">Mobile No.</label>
+                <input type="number" class="form-control" id="inputNumber4" placeholder="Your Mobile Number" required>
+              </div> -->
+            </div>
+           
+              
+            <!-- <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputname4">Username</label>
+                <input type="text" class="form-control" id="inputName" placeholder="name" required>  
+              </div>
+              <div class="form-group col-md-6">
+                <label for="inputState">Who are you...</label>
+                <select id="inputState" class="form-control" required>
+                    <option></option>
+                    <option> Teacher </option>
+                    <option> Student </option>
+                </select>
+              </div>
+            </div> -->
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="inputPassword4">Password</label>
+                    <input type="password" class="form-control" id="inputPassword" placeholder="Password" required>
+                  </div> 
+                  <!-- <div class="form-group col-md-6">
+                    <label for="inputPassword4">Confirm Password</label>
+                    <input type="password" class="form-control" id="inputPassword4" placeholder="Password" required>
+                  </div> -->
+            </div> 
+            <!-- <div class="form-group">
+              <div class="form-check check">
+                <input class="form-check-input " type="checkbox" id="gridCheck">
+                <label class="form-check-label " for="gridCheck" required>
+                    Are you sure the above informations are correct
+                </label>
+              </div> 
+            </div> -->
+            <button id="signup" class="btn btn-primary btn-lg" onclick="signup()"> Sign Up </button>
+      </form>
+       
+  </body>
+</html>    

@@ -1,0 +1,72 @@
+<html lang="en">
+    <link type="text/css" rel="stylesheet" id="dark-mode-general-link">
+    <link type="text/css" rel="stylesheet" id="dark-mode-custom-link">
+    <style lang="en" type="text/css" id="dark-mode-custom-style"></style>
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Online Quiz</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Merienda:wght@400;700&family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@800&display=swap" rel="stylesheet">
+    
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/floating-labels/">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Custom styles for this template -->
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link href="login.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <form class="form-signin" id="form">
+      <div class="text-center mb-4">
+        <h1 class="h3 mb-3 font-weight-normal heading">Welcome back to Online Quiz</h1>
+        <p>Let's get started!</p>
+       </div>
+      <div class="form-label-group mrof" >        
+        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required>
+      </div>
+
+      <div class="form-label-group mrof"> 
+        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+      </div>
+      
+      <div class="checkbox mb-3 mrofi">
+        <label>
+          <input type="checkbox" value="remember-me"> Remember me
+        </label>
+      </div>
+      <button class="btn btn-primary btn-lg mmm" onclick="login()">Log In</button>
+      <br>
+      <!-- <a href="" class="lin">Forgot password ??</a> -->
+      <p class="mt-5 mb-3 text-muted text-center">© 2021-2022</p>
+      <a href="" class="lin">Forgot password ??</a>
+    </form>
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.1.1/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.1.1/firebase-analytics.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+    
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+        apiKey: "AIzaSyCKOENQ-BhVfGgW8N4bDu339JYQjSZCuyU",
+        authDomain: "quiz-login-2f3cd.firebaseapp.com",
+        projectId: "quiz-login-2f3cd",
+        storageBucket: "quiz-login-2f3cd.appspot.com",
+        messagingSenderId: "170616820997",
+        appId: "1:170616820997:web:8bbe4a0d60b83869a1d36c",
+        measurementId: "G-ME5EKDM1KB"
+      };
+    
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
+    <script src="login.js"></script>
+  </body>
+</html>
